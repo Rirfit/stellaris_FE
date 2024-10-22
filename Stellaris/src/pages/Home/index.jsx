@@ -1,4 +1,5 @@
 import NavBar from "../../components/Navbar"
+import '../Home/styles.css'
 
 export const Home = () => {
     return (
