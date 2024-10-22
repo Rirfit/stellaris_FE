@@ -1,0 +1,30 @@
+:root{
+    /* background-image: url("./IMG/image.webp"); */
+    /* background-size: 100%; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: #070D2A;
+}
+
+h1{
+    padding: 20px;
+    color: #ffff;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.container, form{
+    background-color: rgba(255, 255, 255, 0.1);
+    align-items: center;
+}
