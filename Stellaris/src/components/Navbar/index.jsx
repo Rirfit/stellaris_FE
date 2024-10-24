@@ -19,12 +19,13 @@ const NavBar =()=>{
             </label>
 
             <div className="logo"><img src={foto} alt="" /></div>
-            <Link className="btn homebtn" to={"/"}></Link> <p className='paragrafoBtn'>Home</p>
-            <Link className="btn sobreNosbtn"></Link> <p className='paragrafoBtn'>Sobre Nós</p>
-            <Link className="btn iabtn"></Link> <p className='paragrafoBtn'>IA</p>
-            <Link className="btn jogosbtn"></Link> <p className='paragrafoBtn'>Jogos</p>
-            <Link className="btn blog"></Link> <p className='paragrafoBtn'>Blog</p>
-            <Link className="btn meuPerfilbtn"to={"/login"}></Link> <p className='paragrafoBtn'>Meu Perfil</p>
+
+            <abbr title="Home"><Link to={"/"}><div className='btn homebtn'></div></Link></abbr> <p className='paragrafoBtn'>Home</p>
+            <abbr title="Sobre Nós"><Link to={""}><div className='btn sobreNosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Sobre Nós</p>
+            <abbr title="IA"><Link to={""}><div className='btn iabtn'></div></Link></abbr> <p className='paragrafoBtn'>IA</p>
+            <abbr title="Jogos"><Link to={""}><div className='btn jogosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Jogos</p>
+            <abbr title="Blog"><Link to={""}><div className='btn blog'></div></Link></abbr> <p className='paragrafoBtn'>Blog</p>
+            <abbr title="Meu Perfil"><Link to={""}><div className='btn meuPerfilbtn'></div></Link></abbr> <p className='paragrafoBtn'>Meu Perfil</p>
         </div>
     </nav>
     )
