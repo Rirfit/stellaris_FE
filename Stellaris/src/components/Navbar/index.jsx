@@ -19,7 +19,6 @@ const NavBar =()=>{
             </label>
 
             <div className="logo"><img src={foto} alt="" /></div>
-<<<<<<< HEAD
 
             <abbr title="Home"><Link to={"/"}><div className='btn homebtn'></div></Link></abbr> <p className='paragrafoBtn'>Home</p>
             <abbr title="Sobre Nós"><Link to={""}><div className='btn sobreNosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Sobre Nós</p>
@@ -27,18 +26,9 @@ const NavBar =()=>{
             <abbr title="Jogos"><Link to={""}><div className='btn jogosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Jogos</p>
             <abbr title="Blog"><Link to={""}><div className='btn blog'></div></Link></abbr> <p className='paragrafoBtn'>Blog</p>
             <abbr title="Meu Perfil"><Link to={""}><div className='btn meuPerfilbtn'></div></Link></abbr> <p className='paragrafoBtn'>Meu Perfil</p>
-=======
-            <Link className="btn homebtn" to={"/"}></Link> <p className='paragrafoBtn'>Home</p>
-            <Link className="btn sobreNosbtn" to={"/sobreNos"}></Link> <p className='paragrafoBtn'>Sobre Nós</p>
-            <Link className="btn iabtn" to={"/escolhaIA"}></Link> <p className='paragrafoBtn'>IA</p>
-            <Link className="btn jogosbtn" to={"/jogos"}></Link> <p className='paragrafoBtn'>Jogos</p>
-            <Link className="btn blog" to={"/blogs"}></Link> <p className='paragrafoBtn'>Blog</p>
-            <Link className="btn meuPerfilbtn" to={"/perfil"}to={"/login"}></Link> <p className='paragrafoBtn'>Meu Perfil</p>
->>>>>>> b5330ce681391006597cb9fb4165379498664ed5
         </div>
     </nav>
     )
 }
-<button><Link to={"/"}>concluir</Link></button>
 
 export default NavBar
