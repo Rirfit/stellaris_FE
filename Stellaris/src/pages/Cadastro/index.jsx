@@ -1,13 +1,15 @@
 import './style.css'
+import  { Link } from 'react-router-dom'
 
 export const Cadastro = () => {
+
     return (
         <>
             <div className="cadastro">
 
                 <h1>Cadastre-se</h1>
 
-                <div className="container">
+                <div className="containerForm">
 
                     <form method="post">
                         <label>Nome do responsável</label>
@@ -28,8 +30,7 @@ export const Cadastro = () => {
 
                 </div>
 
-                <button>Avançar</button>
-
+                <button><Link to={"/cadastroCrianca"}>Avançar</Link></button>
 
             </div>
         </>
