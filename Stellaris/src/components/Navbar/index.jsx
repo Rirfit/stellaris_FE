@@ -20,11 +20,11 @@ const NavBar =()=>{
 
             <div className="logo"><img src={foto} alt="" /></div>
             <Link className="btn homebtn" to={"/"}></Link> <p className='paragrafoBtn'>Home</p>
-            <Link className="btn sobreNosbtn"></Link> <p className='paragrafoBtn'>Sobre Nós</p>
-            <Link className="btn iabtn"></Link> <p className='paragrafoBtn'>IA</p>
-            <Link className="btn jogosbtn"></Link> <p className='paragrafoBtn'>Jogos</p>
-            <Link className="btn blog"></Link> <p className='paragrafoBtn'>Blog</p>
-            <Link className="btn meuPerfilbtn"></Link> <p className='paragrafoBtn'>Meu Perfil</p>
+            <Link className="btn sobreNosbtn" to={"/sobreNos"}></Link> <p className='paragrafoBtn'>Sobre Nós</p>
+            <Link className="btn iabtn" to={"/escolhaIA"}></Link> <p className='paragrafoBtn'>IA</p>
+            <Link className="btn jogosbtn" to={"/jogos"}></Link> <p className='paragrafoBtn'>Jogos</p>
+            <Link className="btn blog" to={"/blogs"}></Link> <p className='paragrafoBtn'>Blog</p>
+            <Link className="btn meuPerfilbtn" to={"/perfil"}></Link> <p className='paragrafoBtn'>Meu Perfil</p>
         </div>
     </nav>
     )
