@@ -24,10 +24,11 @@ const NavBar =()=>{
             <Link className="btn iabtn"></Link> <p className='paragrafoBtn'>IA</p>
             <Link className="btn jogosbtn"></Link> <p className='paragrafoBtn'>Jogos</p>
             <Link className="btn blog"></Link> <p className='paragrafoBtn'>Blog</p>
-            <Link className="btn meuPerfilbtn"></Link> <p className='paragrafoBtn'>Meu Perfil</p>
+            <Link className="btn meuPerfilbtn"to={"/login"}></Link> <p className='paragrafoBtn'>Meu Perfil</p>
         </div>
     </nav>
     )
 }
+<button><Link to={"/"}>concluir</Link></button>
 
 export default NavBar
