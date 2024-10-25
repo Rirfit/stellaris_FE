@@ -16,6 +16,10 @@ nav{
     align-items: center;
 }
 
+.logo > img{
+    height: 50px;
+}
+
 .links-container{
     height: 100%;
     width: 100%;
@@ -147,6 +151,10 @@ nav{
     .logo,.btn{
         position: relative;
         left: 10px;
+    }
+
+    .logo > img{
+        height: 50px;
     }
 
     .btn:hover{

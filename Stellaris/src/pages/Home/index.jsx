@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer"
 import NavBar from "../../components/Navbar"
 import '../Home/styles.css'
 
@@ -55,6 +56,7 @@ export const Home = () => {
                 <p>Venha ver</p>
                 <button>Entrar</button>
             </div>
+            <Footer/>
         </div>
         </>
     )
