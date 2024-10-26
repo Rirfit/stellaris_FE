@@ -9,7 +9,7 @@ export const Home = () => {
             <main>
 
                 <div className="callToActionUm">
-                    <h1>
+                    <h1 id="home">
                         <span>Realize um teste visual de</span><br />
                         <span>Seu filho de forma prática e</span><br />
                         <span>Rápida aqui.</span>
@@ -21,7 +21,7 @@ export const Home = () => {
 
 
                 <div className="contentResultado">
-                    <h2>
+                    <h2 id="jogosIA">
                         <span>Como chegamos</span><br />
                         <span>nesse resultado?</span>
                     </h2>
@@ -41,7 +41,7 @@ export const Home = () => {
 
 
                 <div className="contentGuia">
-                    <h2>Acompanhe nossos guias e dicas!</h2>
+                    <h2 id="blog">Acompanhe nossos guias e dicas!</h2>
                     <ul>
                         <li>
                             <div className="contentCard">
@@ -76,7 +76,7 @@ export const Home = () => {
 
 
                 <div className="contentFeedback">
-                    <h2>Feedback dos Usuários</h2>
+                    <h2 id="feedback">Feedback dos Usuários</h2>
                     <div>
                         <div className="cardFeedback">
                             <h4>Jailson O.</h4>
@@ -114,6 +114,7 @@ export const Home = () => {
 
 
             </main>
+            <Footer/>
         </>
     )
 }
