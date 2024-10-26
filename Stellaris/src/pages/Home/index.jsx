@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer"
 import NavBar from "../../components/Navbar"
 import '../Home/styles.css'
 

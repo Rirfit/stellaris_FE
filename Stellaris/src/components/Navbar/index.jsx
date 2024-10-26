@@ -1,8 +1,9 @@
 import '../Navbar/style.css'
 import { Link } from 'react-router-dom'
-import foto from '../../assets/react.svg'
+import logoEscrita from '../../assets/images/logoEscrito.svg'
 
 const NavBar =()=>{
+
     return(
         <nav>
         <input type="checkbox" id="sidebar-active"/>
@@ -18,7 +19,7 @@ const NavBar =()=>{
                 <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
             </label>
 
-            <div className="logo"><img src={foto} alt="" /></div>
+            <div className="logo"><img src={logoEscrita} alt="logo da Stellaris" className='logoImg' /></div>
 
             <abbr title="Home"><Link to={"/"}><div className='btn homebtn'></div></Link></abbr> <p className='paragrafoBtn'>Home</p>
             <abbr title="Sobre Nós"><Link to={""}><div className='btn sobreNosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Sobre Nós</p>
