@@ -1,13 +1,12 @@
 import Footer from "../../components/Footer"
 import NavBar from "../../components/Navbar"
-import '../Home/styles.css'
+import '../Home/style.css'
 
 export const Home = () => {
     return (
         <>
             <NavBar />
             <main>
-
                 <div className="callToActionUm">
                     <h1 id="home">
                         <span>Realize um teste visual de</span><br />
@@ -17,8 +16,6 @@ export const Home = () => {
                     <h2>Visão Clara, sonhos maiores!</h2>
                     <button>Entrar</button>
                 </div>
-
-
 
                 <div className="contentResultado">
                     <h2 id="jogosIA">
@@ -39,7 +36,6 @@ export const Home = () => {
                     </div>
                 </div>
 
-
                 <div className="contentGuia">
                     <h2 id="blog">Acompanhe nossos guias e dicas!</h2>
                     <ul>
@@ -58,7 +54,6 @@ export const Home = () => {
                     </ul>
                 </div>
 
-
                 <div className="contentMarketing">
                     <p>
                         <span>Fique por dentro das</span><br />
@@ -73,7 +68,6 @@ export const Home = () => {
                         <img src="" alt="Tiktok" />
                     </div>
                 </div>
-
 
                 <div className="contentFeedback">
                     <h2 id="feedback">Feedback dos Usuários</h2>
@@ -111,8 +105,6 @@ export const Home = () => {
                     <p>Venha ver</p>
                     <button>Entrar</button>
                 </div>
-
-
             </main>
             <Footer/>
         </>
