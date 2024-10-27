@@ -1,21 +1,20 @@
 body {
-  background: linear-gradient(to bottom ,
-      #141F57 0%,
-      #091033 5%,
-      #0A133C 30%,
-      #0C1649 40%,
-      #0F1D5D 50%,
-      #12216B 70%,
-      #14267B 90%,
-      #424a75  100%
+  background: linear-gradient(
+    to bottom,
+    #141F57 0%,
+    #091033 5%,
+    #0A133C 30%,
+    #0C1649 40%,
+    #0F1D5D 50%,
+    #12216B 70%,
+    #14267B 90%,
+    #424a75 100%
   );
   margin: 0;
   min-height: 100vh; 
   display: flex;
   flex-direction: column; 
 }
-
-
 
 /* Primeira parte, onde está o priemiro botão de entrar do site*/
 .callToActionUm {
@@ -178,10 +177,6 @@ body {
 }
 /*^ Terceira parte, onde "Acompanhe nossos guias e dicas!" ^*/
 
-
-
-/* ^ quarta parte, onde está o marketing ^ */
-
 .contentMarketing {
   display: flex;
   flex-direction: column;
@@ -194,6 +189,7 @@ body {
   width: 80%;
   text-align: center;
 }
+/* ^ quarta parte, onde está o marketing ^ */
 
 .contentMarketing p {
   font-size: 2rem;
@@ -286,18 +282,17 @@ body {
 /* Sexta parte, onde está call to action*/
 
 .callToActionDois {
-color: #fff;
-margin: 5rem;
-padding: 2rem;
-
+  color: #fff;
+  margin: 5rem;
+  padding: 2rem;
 }
+
 .callToActionDois h2 {
   font-size: 4.5rem;
-
 }
+
 .callToActionDois p{
   font-size: 1.5rem;
-
 }
 
 .callToActionDois button{
@@ -315,7 +310,3 @@ padding: 2rem;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
   color: #0E1D6F;
 }
-
-
-
-
