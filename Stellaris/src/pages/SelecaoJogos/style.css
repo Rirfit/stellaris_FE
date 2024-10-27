@@ -1,0 +1,54 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-size: 100px;
+  background: #070d2a;
+}
+
+.gamificacao {
+  background: linear-gradient(
+    180deg,
+    #070d2a 0%,
+    #0e1d6f 45%,
+    #0b478a 75%,
+    #068fb9 85.17%,
+    #ffffff 100%
+  );
+  position: relative;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30%;
+}
+
+.gamificacao > .dec {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0%;
+}
+
+.Video {
+  position: relative;
+  width: clamp(80vw, 80vw, 1100px);
+  height: auto;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.title {
+  padding: 0px;
+  margin-top: 6%;
+  font-size: 6vw;
+}
+
+.cards {
+  column-count: 2;
+  padding: 10px;
+  margin: 2% 5%;
+}
