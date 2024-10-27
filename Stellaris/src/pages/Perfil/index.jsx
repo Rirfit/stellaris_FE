@@ -1,41 +1,41 @@
 import './style.css'
 import { Link } from 'react-router-dom'
+import SideBarPerfil from '../../components/Perfil SideBar';
 
-const Perfil = (props) => {
+const Perfil = () => {
 
     return (
         <>
-            <div className='sideBar'>
-                <Link className="btn homeBtn" to={"/"}> Home</Link>
+            <SideBarPerfil />
+            <div className="container">
 
-                <div className='perfil'>
-                    <Link className='fotoLink' to={"/perfil"}>
-                        <img id="imagemPerfil" src="./IMG/" />
-                    </Link>
-                    <p id="nomePerfil">Nome do Usuário</p>
-                    <p>Conta {props.status}</p>
-                </div>
-
-                <div className="opcoes">
-                    <Link className="seletor" to={"/perfilInformacoes"}>Minhas informações</Link>
-                    <Link className="seletor" to={"/perfilConta"}>Conta</Link>
-                    <Link className='seletor' to={"/perfilAlterar"}>Aletrar dados</Link>
-                </div>
-
-                <button><Link className="btn" to={"/"}>Sair</Link></button>
-            </div>
-
-            <Card>
                 <div className="usuario">
-                    <img src=""/>
-                    <p>Nome do Usuário</p>
+                    <img src="" />
+                    <p>Nome do Usuário</p> {/*Puxar do Banco de dados o Nome do Usuário*/}
                 </div>
+
                 <div className="avateres">
+                    <div className="imagens">
+                        {/*Fila 1*/}
+                        <img className="avatar" src="" />
+                        <img className="avatar" src="" />
+                        <img className="avatar" src="" />
 
+                        {/*Fila 2*/}
+                        <img className="avatar" src="" />
+                        <img className="avatar" src="" />
+                        <img className="avatar" src="" />
+
+                        {/*Fila 3*/}
+                        <img className="avatar" src="" />
+                        <img className="avatar" src="" />
+                        {/*Icon de camerâ com sinal de +*/} {/*link para adicionar uma foto pessoal*/}
+                    </div>
                 </div>
-                <button><Link className='btn' to={"/perfil"}>Confirmar</Link></button>
-            </Card>
 
+                <button><Link className='confirmarbtn' to={"/perfil"}>Confirmar</Link></button>
+
+            </div>
         </>
     )
 }
