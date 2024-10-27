@@ -26,7 +26,7 @@ const Footer = () => {
 
         <hr className="divisao" />
 
-        <div className="listaMapaSite">
+        {/* <div className="listaMapaSite">
           <h4>Mapa do Site</h4>
           <ul className="mapaSite">
             <li>
@@ -45,9 +45,9 @@ const Footer = () => {
               <a href="#feedback">Feedbacks</a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
-        <hr className="divisao" />
+        {/* <hr className="divisao" /> */}
 
         <div className="descRedes">
           <h4>Sobre o Projeto</h4>
