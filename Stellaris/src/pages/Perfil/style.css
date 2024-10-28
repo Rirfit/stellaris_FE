@@ -38,6 +38,13 @@
     height: 70px;
   }
   
+  .imagens01 >img:hover{
+    cursor: pointer;
+    transform: translate(0px,-10px);
+
+    transition: ease 0.5s;
+  }
+
   .confirmarbtn01{
     cursor: pointer;
     background-color: #D6005C;

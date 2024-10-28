@@ -26,5 +26,19 @@
 }
 
 .inputEmailConta,.inputSenhaConta, .inputCpfConta{
+    cursor: default;
     text-align: center;
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+.editarbtnConta{
+    cursor: pointer;
+    background-color: #D6005C;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
 }

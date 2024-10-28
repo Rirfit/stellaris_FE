@@ -17,7 +17,7 @@ const Conta = () => {
                         <label>CPF</label>
                         <input type="text" name="numeber" className='inputCpfConta' value={"545.989.786-90"} />
                     </form>
-                    <Link className='editarbtn' to={"/alterarDados"}>Editar</Link>
+                    <Link className='editarbtnConta' to={"/alterarDados"}>Editar</Link>
                 </div>
             </main>
         </>
