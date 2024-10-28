@@ -1,0 +1,67 @@
+.sideBar{
+    position: absolute;
+    height: 100vh;
+    width: 225px;
+    background-color: #fffefe4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0px 10px 10px 0px;
+    backdrop-filter: blur(10px);
+}
+
+.linkHome{
+    width: 0px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+#imagemPerfil{
+    height: 80px;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 8px;
+}
+
+.seletor{
+    text-decoration: none;
+    width: 93%;
+    text-align: left;
+    border: 1px solid #0000003b;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.seletor:hover{
+    background-color: #00B2D6;
+    color: black;
+}
+
+.button{
+    border-radius: 0px 0px 7px 0px;
+    background-color: #D6005C;
+    margin-bottom: 1px;
+    cursor: pointer;
+    padding: 6px;
+    width: 100%;
+}
+
+.button:hover{
+    background-color: #00B2D6;
+}
+
+.sairbtn{
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}

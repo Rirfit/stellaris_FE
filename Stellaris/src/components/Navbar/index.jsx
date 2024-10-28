@@ -22,11 +22,11 @@ const NavBar =()=>{
             <div className="logo"><img src={logoEscrita} alt="logo da Stellaris" className='logoImg' /></div>
 
             <abbr title="Home"><Link to={"/"}><div className='btn homebtn'></div></Link></abbr> <p className='paragrafoBtn'>Home</p>
-            <abbr title="Sobre Nós"><Link to={""}><div className='btn sobreNosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Sobre Nós</p>
-            <abbr title="IA"><Link to={""}><div className='btn iabtn'></div></Link></abbr> <p className='paragrafoBtn'>IA</p>
+            <abbr title="Sobre Nós"><Link to={"/sobre"}><div className='btn sobreNosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Sobre Nós</p>
+            <abbr title="IA"><Link to={"/ia"}><div className='btn iabtn'></div></Link></abbr> <p className='paragrafoBtn'>IA</p>
             <abbr title="Jogos"><Link to={"/jogos"}><div className='btn jogosbtn'></div></Link></abbr> <p className='paragrafoBtn'>Jogos</p>
-            <abbr title="Blog"><Link to={""}><div className='btn blog'></div></Link></abbr> <p className='paragrafoBtn'>Blog</p>
-            <abbr title="Meu Perfil"><Link to={""}><div className='btn meuPerfilbtn'></div></Link></abbr> <p className='paragrafoBtn'>Meu Perfil</p>
+            <abbr title="Blog"><Link to={"/blog"}><div className='btn blog'></div></Link></abbr> <p className='paragrafoBtn'>Blog</p>
+            <abbr title="Meu Perfil"><Link to={"/perfil"}><div className='btn meuPerfilbtn'></div></Link></abbr> <p className='paragrafoBtn'>Meu Perfil</p>
         </div>
     </nav>
     )

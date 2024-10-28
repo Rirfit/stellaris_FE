@@ -9,8 +9,6 @@ import ContentGuia from '../../components/Home/ContentGuia'
 import ContentResultado from '../../components/Home/ContentResultado'
 import CalltoActionUm from '../../components/Home/CalltoActionUm'
 
-import Divisao from "../../components/Divisao"
-
 
 export const Home = () => {
     return (
@@ -18,9 +16,7 @@ export const Home = () => {
             <NavBar />
 
                 <CalltoActionUm/>
-                <Divisao/>
                 <ContentResultado/>
-                <Divisao/>
                 <ContentGuia/>
                 <ContentMarketing/>
                 <ContentFeedback/>

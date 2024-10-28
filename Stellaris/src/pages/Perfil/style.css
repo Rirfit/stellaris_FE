@@ -1,0 +1,50 @@
+.conteudoPrincipal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(120deg, #4ebec6 14%, #17235c 100%) !important;
+  }
+  
+  .container01{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: auto;
+    background-color: #ffffff2e;
+    align-items: center;
+  }
+  
+  .usuario01{
+      display: flex;
+      padding: 10px;
+      gap: 8px;
+      flex-direction: column;
+  }
+  
+  .usuario01 > img , .avatar01 {
+      height: 80px;
+  }
+  
+  .imagens01{
+    padding: 18px;
+  }
+  
+  .imagens01 >img{
+    margin: 11px;
+    height: 70px;
+  }
+  
+  .confirmarbtn01{
+    cursor: pointer;
+    background-color: #D6005C;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}
+  

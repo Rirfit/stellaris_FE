@@ -10,6 +10,7 @@ import AlterarDados from '../pages/Perfil Alterar Dados';
 
 import Jogos from '../pages/SelecaoJogos';
 import Blog from '../pages/Blog';
+import Sobre from '../pages/Sobre';
 
 import { Route, Routes as Switch } from 'react-router-dom';
 
@@ -28,6 +29,7 @@ export function AppRoutes(){
 
             <Route path="/jogos" element={<Jogos/>} />
             <Route path="/blog" element={<Blog/>} />
+            <Route path="/sobre" element={<Sobre/>} />
         </Switch>
     )
 }
