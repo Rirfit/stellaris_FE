@@ -1,0 +1,65 @@
+.contentGuia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 926px;
+    background-image: url('../../../assets/images/ContentGuia/backgorund.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+  
+  }
+  
+  .contentGuia h2 {
+    font-size: 2rem;
+    color: #0E1D6F;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contentGuia ul {
+    display: flex;
+    flex-direction: column; 
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    margin: 4rem auto;
+  }
+  
+  .contentGuia li {
+    position: relative;
+    margin: 10px;
+    top: 5rem;
+    display: flex;
+    justify-content: center; /* Centraliza os cards */
+  }
+  
+  .contentCard {
+    display: flex;
+    align-items: center; 
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px; 
+    text-align: left; 
+  }
+  
+  .contentCard img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1rem; 
+  }
+  
+  .contentCard p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+  }

@@ -1,0 +1,60 @@
+.contentFeedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .contentFeedback h2 {
+    font-size: 2rem;
+    color: #0E1D6F;
+    margin-bottom: 1.5rem;
+  }
+  
+  .contentFeedback > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .cardFeedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .cardFeedback h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardFeedback img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cardFeedback p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0.5rem 0;
+  }
+  
+  .cardFeedback div {
+    font-size: 1.2rem;
+    color: #FFD700;
+  }

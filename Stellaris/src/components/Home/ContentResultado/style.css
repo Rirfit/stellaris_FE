@@ -1,0 +1,82 @@
+.contentResultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    height: 926px;
+    background-image: url('../../../assets/images/contentResultado/lua.svg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  .contentResultado .luaImg{
+    position: absolute;
+    z-index: 0;
+    width: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0%;
+  
+  }
+  
+  .contentResultado h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .contentIA, .contentJogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px; 
+  }
+  
+  .contentIA img, .contentJogos img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    border: 1px  solid #000000;
+    border-radius: 50px;
+    background-color: #1EF3DA;
+  }
+  
+  .contentIA h3, .contentJogos h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .contentIA p, .contentJogos p {
+    font-size: 14px;
+    color: #e4e4e4;
+    text-align: center;
+  }
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+    width: 100%; 
+    background: none;
+    background-color: rgba(0, 0, 0, 0.0) ;
+    top: 8rem;
+    gap: 5rem;
+  }
+  .container, form{
+    background-color: rgba(0, 0, 0, 0.0) !important;
+    align-items: center;
+  }
+   .jogosIA{
+    position: relative;
+    top: 9rem;
+
+  }
+  .contentIA img:hover, .contentJogos img:hover {
+   
+    background-color: #A107CF;
+  }
+  

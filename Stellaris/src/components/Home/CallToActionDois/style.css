@@ -1,0 +1,33 @@
+.callToActionDois {
+    color: #fff;
+    margin: 5rem;
+    padding: 2rem;
+    
+    }
+    .callToActionDois h2 {
+      font-size: 4.5rem;
+    
+    }
+    .callToActionDois p{
+      font-size: 1.5rem;
+    
+    }
+    
+    .callToActionDois button{
+      margin: 2rem;
+      background-color: rgba(255, 255, 255, 0.0);
+      border: 2px solid #ffffff;
+      width: 10rem;
+      height: 3rem;
+      outline: none;
+      cursor: pointer;
+      font-size: larger;
+      border-radius: 25px;
+      font-weight: 600;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+      color: #ffffff;
+    }
+
+    .callToActionDois button:hover{
+      background-color: rgba(70, 0, 161, 0.4);
+    }

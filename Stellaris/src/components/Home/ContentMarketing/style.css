@@ -1,0 +1,54 @@
+.contentMarketing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Texto branco */
+    border-radius: 8px;
+    width: 100%;
+    height: 626px;
+    text-align: center;
+    position: relative; /* Para posicionar a imagem na direita */
+}
+
+.textContainer {
+    margin-bottom: 1.5rem;
+}
+
+.contentMarketing p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.contentRedes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    z-index: 1; /* Garantir que os links estejam acima da imagem */
+}
+
+.contentRedes .redesImg {
+    width: 100px;
+    height: 100px;
+    background-color: #A107CF; /* Fundo roxo para os ícones */
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.colorChange {
+    color: #00C7BE;
+}
+
+.redesImg:hover {
+    background-color: #350344;
+}
+
+.imgDireita {
+    position: absolute;
+    top: 0; /* Posição no topo */
+    right: 0; /* Posição na direita */
+    z-index: 0; /* Garantir que a imagem esteja atrás dos links */
+    width: 400px; /* Ajuste conforme necessário */
+}
