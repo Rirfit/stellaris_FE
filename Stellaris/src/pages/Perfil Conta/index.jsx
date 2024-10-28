@@ -10,11 +10,11 @@ const Conta = () => {
                 <div className="containerConta">
                     <h1>Informações da Conta</h1>
                     <form action="post" className='formularioPeriflConta'>
-                        <label>E-mail</label>
+                        <label className='labelsPerfil'>E-mail</label>
                         <input type="email" name="email" className='inputEmailConta' value={"Email do responsável"} />
-                        <label>Senha</label>
+                        <label  className='labelsPerfil'>Senha</label>
                         <input type="password" name="senha" className='inputSenhaConta' value={"Senha atual"} />
-                        <label>CPF</label>
+                        <label  className='labelsPerfil'>CPF</label>
                         <input type="text" name="numeber" className='inputCpfConta' value={"545.989.786-90"} />
                     </form>
                     <Link className='editarbtnConta' to={"/alterarDados"}>Editar</Link>

@@ -1,4 +1,5 @@
 import '../CalltoActionUm/style.css'
+import { Link } from 'react-router-dom'
 
 const CalltoActionUm = () =>{
     return(
@@ -10,7 +11,7 @@ const CalltoActionUm = () =>{
                 <span>Rápida aqui.</span>
             </h1>
             <h2>Visão Clara, sonhos maiores!</h2>
-            <button>Entrar</button>
+            <button><Link to={"/cadastro"} className='linkDaHomeParaCadastro'>Entrar</Link></button>
         </div>
     </div>
 

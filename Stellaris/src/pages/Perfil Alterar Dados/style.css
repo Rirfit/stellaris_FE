@@ -1,0 +1,50 @@
+.conteudoPrincipalEditarConta{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../../assets/images/backroundPerfil.svg);
+}
+
+.containerEditarConta{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: auto;
+    background-color: #ffffff2e;
+    align-items: center;
+}
+
+.formularioEditarPerfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.labelsEditarPerfil{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.inputEmailEditarPerfil, .inputSenhaEditarPerfil, .inputConfirmaEmailEditarPerfil, .inputConfirmaSenhaEditarPerfil{
+    cursor: default;
+    text-align: center;
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+}
+
+.salvarbtnEditarConta{
+    cursor: pointer;
+    background-color: #D6005C;
+    color: white;
+    text-decoration: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 10px;
+}

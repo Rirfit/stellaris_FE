@@ -25,6 +25,12 @@
     gap: 15px;
 }
 
+.labelsPerfil{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
 .inputEmailConta,.inputSenhaConta, .inputCpfConta{
     cursor: default;
     text-align: center;

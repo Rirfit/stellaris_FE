@@ -54,7 +54,6 @@ export const Jogos = () => {
           ))}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

@@ -31,3 +31,9 @@
     .callToActionDois button:hover{
       background-color: rgba(70, 0, 161, 0.4);
     }
+
+    .linkDaHomeParaCadastro02{
+      display: block;
+      width: 100%;
+      color: #fff;
+    }

@@ -5,27 +5,23 @@ import './style.css'
 const AlterarDados = () => {
     return (
         <>
-            <SideBarPerfil />
-            <div className="contain">
-                <h1>Informações da Conta</h1>
-
-                <form action="post">
-                    <label>E-mail</label>
-                    <input type="email" name="email" placeholder={{/*Puxar e-mail cadastrado*/ }} />
-
-                    <label>Cofirmar e-mail</label>
-                    <input type="email" name="email" placeholder="Confirmar e-mail" />
-
-                    <label>Senha</label>
-                    <input type="password" name="senha" placeholder={{/*Puxar e-mail cadastrado*/ }} />
-
-                    <label>Cofirmar Senha</label>
-                    <input type="password" name="senha" placeholder="Confirmar senha" />
-                </form>
-
-                <button><Link className="salvarbtn" to="/alterarDados">Salvar</Link></button> {/*Deixar um pouco transparente se não tiver alterado nada*/}
-
-            </div>
+            <main className='conteudoPrincipalEditarConta'>
+                <SideBarPerfil />
+                <div className="containerEditarConta">
+                    <h1>Editar Conta</h1>
+                    <form action="post" className='formularioEditarPerfil'>
+                        <label className='labelsEditarPerfil'>E-mail</label>
+                        <input type="email" name="email" placeholder={"Email já cadastrado vai aqui"} className='inputEmailEditarPerfil' />
+                        <label className='labelsEditarPerfil'>Cofirmar novo E-mail</label>
+                        <input type="email" name="email" placeholder="Confirmar e-mail" className='inputConfirmaEmailEditarPerfil' />
+                        <label className='labelsEditarPerfil'>Senha</label>
+                        <input type="password" name="senha" placeholder={"Puxar senha já cadastrada aqui"} className='inputSenhaEditarPerfil' />
+                        <label className='labelsEditarPerfil'>Cofirmar nova Senha</label>
+                        <input type="password" name="senha" placeholder="Confirmar senha" className='inputConfirmaSenhaEditarPerfil'/>
+                    </form>
+                    <button className="salvarbtnEditarConta">Salvar</button> {/*Deixar um pouco transparente se não tiver alterado nada*/}
+                </div>
+            </main>
         </>
     )
 }

@@ -8,7 +8,7 @@ const Perfil = () => {
     return (
         <>
             <main className='conteudoPrincipal'>
-                <SideBarPerfil pagina = "perfil" />
+                <SideBarPerfil/>
                 <div className="container01">
                     <div className="usuario01">
                         <img src={foto} />
