@@ -12,6 +12,8 @@ import Jogos from '../pages/SelecaoJogos';
 import Blog from '../pages/Blog';
 import Sobre from '../pages/Sobre';
 
+import IA from '../pages/IaSelect';
+
 import { Route, Routes as Switch } from 'react-router-dom';
 
 export function AppRoutes(){
@@ -30,6 +32,8 @@ export function AppRoutes(){
             <Route path="/jogos" element={<Jogos/>} />
             <Route path="/blog" element={<Blog/>} />
             <Route path="/sobre" element={<Sobre/>} />
+
+            <Route path="/ia" element={<IA/>} />
         </Switch>
     )
 }
