@@ -18,9 +18,9 @@ function SideBarPerfil() {
                 </div>
 
                 <div className="opcoes">
-                    <Link className="seletor" to={"/perfil"}>Perfil</Link>
-                    <Link className="seletor" to={"/minhasInformacoes"}>Minhas Informações</Link>
-                    <Link className='seletor' to={"/conta"}>Conta</Link>
+                    <Link className="seletor" to={"/perfil"}>Alterar Foto</Link>
+                    <Link className="seletor" to={"/minhasInformacoes"}>Pessoas Logadas</Link>
+                    <Link className='seletor' to={"/conta"}>Informações da Conta</Link>
                     <Link className='seletor' to={"/"}>Adicionar um Stellariano</Link>
                 </div>
 

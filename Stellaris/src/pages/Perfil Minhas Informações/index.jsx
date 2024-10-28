@@ -6,33 +6,43 @@ const MinhasInformacoes = () => {
     return (
         <>
             <SideBarPerfil />
-            <div className="container">
-                <h1>Minhas Informações</h1>
+            <main className='conteudoPrincipalMinhasInfos'> 
+                <div className="containerMinhasInfo">
+                    <h1 className='tituloMinhasInfo'>Pessoas Logadas</h1>
+                    <form action="post" className='formMinhasInfo'>
 
-                <form action="post">
-                    <div className="resposponsavel">
-                        <label>Nome do Responsável</label>
-                        <input type="text" id="nome" value={{/*Puxar o Nome do Responsavel*/ }} />
+                        <div className="responsavelMinhasInfo">
+                            <label className='nomeResponsavelMinhasInfo'>Nome do Responsável 01</label>
+                            <input type="text" id="nome" value={"Nome do Responsável"} className='nomeResponsavelInputMinhasInfo' />
+                            <label className='idadeResponsavelMinhasInfo'>Idade</label>
+                            <input type="number" id="idade" value={44} className='idadeResponsavelInputMinhasInfo'/> {/*idade do responsável*/}
+                        </div>
 
-                        <label>Idade</label>
-                        <button type='button' id='decrementar'></button>
-                        <input type="number" id="idade" value={{/*Puxar a Idade do Responsavel*/ }} />
-                        <button type='button' id='incrementar'></button>
-                    </div>
+                        <div className="crianca">
+                            <label className='nomeDaCriancaMinhasInfo'>Nome do Stellariano 01</label>
+                            <input type="text" id="nome" value={"Nome da criança"} className='nomeDaCriancaInputMinhasInfo' />
+                            <label className='idadeCriancaMinhasInfo'>Idade</label>
+                            <input type="number" id="idade" value={8} className='idadeCriancaInputMinhasInfo' /> {/*Puxar a Idade da Criança*/}
+                        </div>
 
-                    <div className="crianca">                        
-                        <label>Nome do Stellariano</label>
-                        <input type="text" id="nome" value={{/*Puxar o Nome da Criança*/ }} />
+                        <div className="crianca">
+                            <label className='nomeDaCriancaMinhasInfo'>Nome do Stellariano 02</label>
+                            <input type="text" id="nome" value={"Nome da criança"} className='nomeDaCriancaInputMinhasInfo' />
+                            <label className='idadeCriancaMinhasInfo'>Idade</label>
+                            <input type="number" id="idade" value={7} className='idadeCriancaInputMinhasInfo' /> {/*Puxar a Idade da Criança*/}
+                        </div>
 
-                        <label>Idade</label>
-                        <button type='button' id='decrementar'></button>
-                        <input type="number" id="idade" value={{/*Puxar a Idade da Criança*/ }} />
-                        <button type='button' id='incrementar'></button>
-                    </div>
-                </form>
+                        <div className="crianca">
+                            <label className='nomeDaCriancaMinhasInfo'>Nome do Stellariano 03</label>
+                            <input type="text" id="nome" value={"Nome da criança"} className='nomeDaCriancaInputMinhasInfo' />
+                            <label className='idadeCriancaMinhasInfo'>Idade</label>
+                            <input type="number" id="idade" value={5} className='idadeCriancaInputMinhasInfo' /> {/*Puxar a Idade da Criança*/}
+                        </div>
 
-                <button>Confirmar Alteração</button> {/*Deixar um pouco transparente se não tiver alterado os dados*/}
-            </div>
+                    </form>
+                   {/*  <button>Confirmar Alteração</button>Deixar um pouco transparente se não tiver alterado os dados*/}
+                </div>
+            </main>
         </>
     )
 }

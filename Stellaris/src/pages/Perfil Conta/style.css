@@ -1,0 +1,30 @@
+.conteudoPrincipalConta{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../../assets/images/backroundPerfil.svg);
+}
+
+.containerConta{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+    flex-direction: column;
+    margin: auto;
+    background-color: #ffffff2e;
+    align-items: center;
+}
+
+.formularioPeriflConta{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inputEmailConta,.inputSenhaConta, .inputCpfConta{
+    text-align: center;
+}
