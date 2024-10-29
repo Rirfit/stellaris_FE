@@ -1,0 +1,106 @@
+.backgroundWrapperLogin {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffffff; /* Cor de fundo específica para a área de login */
+    overflow: hidden;
+}
+
+.intersect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: url('../../assets/images/Login/intersect.svg') no-repeat center center;
+    background-size: cover;
+}
+.fundoEstrelaLogin{
+    background-image: url('../../assets/images/Login/fundoLogin.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login {
+    position: absolute;
+    top: 50%;
+    left: 75%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 8px;
+
+}
+
+.login h1 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.login h2 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.containerFormLogin {
+    margin-bottom: 20px;
+}
+
+.containerFormLogin li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.containerFormLogin label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.containerFormLogin input {
+    width: 20vw;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.containerFormLogin p {
+    font-size: 14px;
+    color: #666;
+}
+
+.containerFormLogin p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.containerFormLogin p a:hover {
+    text-decoration: underline;
+}
+
+.botaoEntrarLogin {
+    background-color: #6c63ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botaoEntrarLogin a {
+    color: white;
+    text-decoration: none;
+}
+
+.botaoEntrarLogin:hover {
+    background-color: #5753d9;
+}
+.fundoEstrelaLogin{
+   width: 100%;
+   height: 100vh;
+
+}
