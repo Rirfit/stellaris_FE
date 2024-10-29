@@ -58,13 +58,12 @@
   .container {
     position: relative;
     display: flex;
-    flex-direction: row; 
-    justify-content: space-around;
-    width: 100%; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
     background: none;
-    background-color: rgba(0, 0, 0, 0.0) ;
-    top: 8rem;
-    gap: 5rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    top: 15rem;
   }
   .container, form{
     background-color: rgba(0, 0, 0, 0.0) !important;

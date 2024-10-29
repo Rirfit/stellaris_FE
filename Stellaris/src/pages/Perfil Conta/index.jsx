@@ -14,8 +14,8 @@ const Conta = () => {
                         <input type="email" name="email" className='inputEmailConta' value={"Email do responsável"} />
                         <label  className='labelsPerfil'>Senha</label>
                         <input type="password" name="senha" className='inputSenhaConta' value={"Senha atual"} />
-                        <label  className='labelsPerfil'>CPF</label>
-                        <input type="text" name="numeber" className='inputCpfConta' value={"545.989.786-90"} />
+                        {/* <label  className='labelsPerfil'>CPF</label>
+                        <input type="text" name="numeber" className='inputCpfConta' value={"545.989.786-90"} /> */}
                     </form>
                     <Link className='editarbtnConta' to={"/alterarDados"}>Editar</Link>
                 </div>

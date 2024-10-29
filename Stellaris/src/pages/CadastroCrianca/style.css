@@ -1,0 +1,97 @@
+:root{
+    text-align: center;
+}
+
+h1{
+    padding: 20px;
+    color: #ffff;
+    text-align: center;
+}
+
+.bodyCadastroCrianca{
+    background-color: #070D2A;
+    z-index: 0;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(./IMG/image.webp);
+}
+    
+.alinhaCadastroCrianca{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.cadastroCadastroCrianca{
+    z-index: 2;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+.textCadastroCrianca{
+    text-align: center;
+}
+.containerFormCadastroCrianca{
+    display: flex;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    width: 60%;
+    height: 80%;
+    justify-content: center;
+}
+
+.labelCadastroCrianca{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btnCadastroCrianca{
+    margin-top: 10px;
+    text-align: center;
+    justify-content: center;
+    background-color: #A107CF;
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+    color: #fff;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.btnCadastroCrianca:hover{
+    background-color: #c300ff;
+}
+
+.linkParaHomeCadastroCrianca{
+    display: block;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.entradaCadastroCrianca{
+    color: #ffff;
+    background: #00B2D6;
+    border-radius: 40px;
+    height: 40px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+input::placeholder{
+    color: #ffff;
+}
+
+@media (max-width:610px){
+    .containerFormCadastroCrianca{
+        height: 415px;
+        width: 329px;
+    }
+
+    .btnCadastroCrianca{
+        margin-top: 15px;
+    }
+}
