@@ -17,7 +17,7 @@ export const Login = () => {
                         <form method="post">
                             <li>
                                 <label>E-mail</label>
-                                <input type="email" placeholder="Digite seu email" />
+                                <input type="email" placeholder='Digite seu e-mail' />
                             </li>
                             <li>
                                 <label>Senha</label>

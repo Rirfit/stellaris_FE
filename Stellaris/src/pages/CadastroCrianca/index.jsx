@@ -59,7 +59,7 @@ const CadastroCrianca = () => {
                 <br />
                 <button className="btnCadastro">
                   <Link
-                    to={"/"}
+                    to={"/login"}
                     className="linkParaCadastroCrianca"
                   >
                     Avançar
